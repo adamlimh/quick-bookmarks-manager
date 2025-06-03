@@ -1,0 +1,49 @@
+/* General card layout */
+.bookmark-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  margin-bottom: 8px;
+}
+
+/* Drag handle */
+.drag-handle {
+  font-size: 1.2rem;
+  cursor: grab;
+  margin-right: 10px;
+  color: #888;
+}
+
+/* Left content area */
+.bookmark-content {
+  flex: 1;
+}
+
+/* Button group alignment */
+.bookmark-actions {
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+/* Tag styling */
+.tag-pill {
+  cursor: pointer;
+}
+
+/* Responsive fix */
+@media (max-width: 576px) {
+  .bookmark-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bookmark-actions {
+    margin-top: 10px;
+    width: 100%;
+    text-align: right;
+  }
+}
