@@ -113,14 +113,4 @@ docker volume rm quick-bookmarks-manager_mongo_data
 
 ---
 
-## 🧪 Optional Ideas for Future
-
-- Search bar for titles or URLs
-- Export/import bookmarks (JSON or CSV)
-- User authentication
-- Dark mode toggle
-- Bookmark thumbnails using OpenGraph
-
----
-
 Made by Adam Li
